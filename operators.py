@@ -39,3 +39,7 @@ print(a!=b)
 print(a>4 and b<3)
 #or operator
 print(a>4 or b<3)
+#Covert into binary
+print(bin(29))
+print(0b10011)
+print(bin(410))
