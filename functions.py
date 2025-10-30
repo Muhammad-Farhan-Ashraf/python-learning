@@ -30,5 +30,8 @@ from math import sqrt, pow, tan
 print(sqrt(64))
 print(pow(4,5))
 print(tan(180))
+#pi value
+print(math.pi)
+
 
 
