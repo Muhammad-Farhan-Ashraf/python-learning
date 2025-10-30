@@ -42,4 +42,5 @@ print(a>4 or b<3)
 #Covert into binary
 print(bin(29))
 print(0b10011)
-print(bin(410))
+print(bin(12))
+print(~12)
