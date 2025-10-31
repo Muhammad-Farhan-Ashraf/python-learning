@@ -31,3 +31,4 @@ elif age>=18 and age<=60:
 else:
     print("you are senior citizen, You can call Gov.t transport service")
 print("we have checked all the conditions")
+print("Thanks")
