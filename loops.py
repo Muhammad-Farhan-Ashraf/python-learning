@@ -26,4 +26,4 @@ for i in range(1,21):
     if i%3!=0:
      print(i)
 print("its for loop with condition of if")
-print("practice ")
+print("practice  ")
