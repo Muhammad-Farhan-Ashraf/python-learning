@@ -25,3 +25,11 @@ def plus(a, *b):
     print(type(a))
     print(type(b))
 plus(2,3,50,7)
+"""Keyworded Variable Length Arguments"""
+"""Passing keyword and argument"""
+def info(name,**data ):
+    print(name)
+    for i,j in data.items():
+        print(i,j)
+info("Ali", age=30,town="Bonn", state="NRW")
+info("Ahmed", age=13)
