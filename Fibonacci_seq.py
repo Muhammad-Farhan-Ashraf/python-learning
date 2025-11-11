@@ -6,7 +6,7 @@ def fibo(n):
     b=1
     if n==1:
         print(a)
-    elif n<a:
+    elif n<=0:
         print("please write valid number")
     else:
         print(a)
@@ -15,7 +15,16 @@ def fibo(n):
             c=a+b
             a=b
             b=c
+            if c >= 100:
+                break
             print(c)
+
 fibo(n)
-
-
+def fact(d):
+    f=1
+    for i in range(1,d+1):
+        f=f*i
+    return f
+d=int(input("Write number for factorial: "))
+result=fact(d)
+print(result)
