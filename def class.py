@@ -57,3 +57,37 @@ class calculator:
 
 a1=calculator(60,0)
 a1.all()
+class BankAccount:
+    def __init__ (self,account_holder, balance):
+        self.account_holder=account_holder
+        self.balance=balance
+    def deposit(self, amount):
+        self.balance+=amount
+        print("Deposit", amount)
+    def withdraw(self,amount):
+        if amount> self.balance:
+            print("Insufficient balance")
+        else:
+            self.balance-=amount
+    def show_balance(self):
+        print("Current balance", self.balance)
+name=input("Enter name:  ")
+balance=float(input("Enter balance:  "))
+acc1=BankAccount(name,balance)
+acc1.deposit(100)
+acc1.withdraw(300)
+acc1.show_balance()
+
+class Rectengale:
+    def __init__(self,length,width):
+        self.length=length
+        self.width=width
+    def area(self):
+        area=self.length*self.width
+        print (" Area" , area)
+    def perimeter(self):
+        perimeter=2*(self.length+self.width)
+        print("Perimeter", perimeter)
+rec=Rectengale(4,5)
+rec.area()
+rec.perimeter()
