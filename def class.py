@@ -91,3 +91,29 @@ class Rectengale:
 rec=Rectengale(4,5)
 rec.area()
 rec.perimeter()
+class Car:
+    def __init__(self,brand,model,year):
+        self.brand=brand
+        self.model=model
+        self.year=year
+    def car_info(self):
+        print("brand name: ", self.brand)
+        print("car model:", self.model)
+        print("year:", self.year)
+    def car_age(self, current_year):
+        age=current_year-self.year
+        print("Car age", age)
+current_year=int(input("write current year"))
+c=Car("BMW",2020,2010)
+c.car_info()
+c.car_age(current_year)
+class python:
+    def execute(self,ide):
+        ide.execute()
+class Editor:
+    def execute(self):
+        print("spell check")
+        print("Age filter")
+ide=Editor()
+a=python()
+a.execute(ide)
