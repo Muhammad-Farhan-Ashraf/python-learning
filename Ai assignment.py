@@ -32,3 +32,39 @@ elif score >= 60:
 else:
     grade = "F"
 print("your grade is ", {grade})
+
+### practice
+x=float(input(" First number: "))
+y=float(input(" Second number: "))
+operator= input(" choose operations(+,-,*,/:) ")
+if operator=="+":
+    print(x+y)
+elif operator=="-":
+    print(x-y)
+elif operator=="*":
+    print(x*y)
+elif operator=="/":
+    if y==0:
+        print("Error")
+    else:
+        print(x/y)
+def comparison():
+    a=float(input("write number"))
+    b=float(input("write sec number"))
+    if a==b:
+        print("equal" )
+    elif a!=b:
+        print("Not equal")
+    elif a>b:
+        print("a is greater then b")
+    else:
+        print("B is greater ")
+comparison()
+def log():
+    onum=45
+    snum=50
+    if onum>=snum:
+        print("first number is greater")
+    elif onum<=snum:
+        print("second number is greater")
+log()
