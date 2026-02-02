@@ -44,3 +44,14 @@ print(bin(29))
 print(0b10011)
 print(bin(12))
 print(~12)
+s="abbaca"
+stack=[]
+for ch in s:
+    if stack and stack[-1]==ch:
+        stack.pop()
+    else:
+        stack.append(ch)
+print("".join(stack))
+import pandas as pd
+fi=pd.read_csv("data.csv")
+print(fi)
